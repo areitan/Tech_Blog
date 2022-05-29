@@ -27,7 +27,7 @@ It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.
 
 
 - [Tech Blog Git Hub Repository](https://github.com/areitan/Tech_Blog)
-- [Tech Blog Walkthrough Video Link](********)
+- [Tech Blog Deployed Link](https://git.heroku.com/obscure-earth-91382.git)
 
 
 ---
