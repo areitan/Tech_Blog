@@ -5,9 +5,7 @@
 ---
 ## Description
 
-This is an MVC applicatrion tech blog built with  
-
-It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), [Express.js](https://www.npmjs.com/package/express), and the [dotenv](https://www.npmjs.com/package/dotenv) package.
+This is an MVC application tech blog built with [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), [Express.js](https://www.npmjs.com/package/express), [express-session](https://www.npmjs.com/package/express-session), [express-handlebars](https://www.npmjs.com/package/express-handlebars), [bcrypt package](https://www.npmjs.com/package/bcrypt), and the [dotenv](https://www.npmjs.com/package/dotenv) package, and deployed with Heroku.
   
 
 ---
@@ -24,7 +22,12 @@ It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.
 ---
 ## Installation
 
-
+1. Clone the repo. 
+2. In the terminal for the project, run "npm i" to install dependencies.
+3. In MySQL, run ```source db/schema.sql```
+4. Exit MySQL once the schema has successfully been sources.
+5. Run ```node seeds/seed.js``` to bring in the seed data.
+6. In the terminal run```node server.js``` to start the server.
 
 - [Tech Blog Git Hub Repository](https://github.com/areitan/Tech_Blog)
 - [Tech Blog Deployed Link](https://git.heroku.com/obscure-earth-91382.git)
@@ -33,30 +36,17 @@ It uses [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.
 ---
 ## Usage
 
-In order to use this application: 
+In order to use this application navigate to the deployed link above. The application should allow the user to view, create, and comment on blog posts.
 
-1. Clone the repo. 
-2. In MySQL, run ```source db/schema.sql```
-3. Exit MySQL once the schema has successfully been sources.
-4. Run ```npm run seed``` to bring in the seed data.
-4. In the terminal run```node server.js``` to start the server.
+### Homepage
+![Tech Blog Homepage](/assets/1_schema.png)
 
-### Install Schema
-![Tech Blog Install Schema](/assets/1_schema.png)
 
-### Run Seed Data
-![Tech Blog Run Seed Data](/assets/2_seed.png)
-
-### Start Server
-![Tech Blog Start Server](/assets/3_start_server.png)
-
-### An example of a successful test (Please watch walk-through video above to see all tests)
-![Tech Blog successful test](/assets/4_tests.png)
 
 ---
 ## Tests
 
-The GET, PUT, POST and DELETE routes were tested for Categories, Products, and Tags using Insomnia. (Please watch walk-through video above to see all tests run.
+The routes were tested manually.
 
 ### Tech Blog Mock-ups Provided
 ![Tech Blog Mock-up 1](/assets/14-mvc-homework-demo-01.gif)
