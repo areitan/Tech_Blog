@@ -27,7 +27,7 @@ This is an MVC application tech blog built with [MySQL2](https://www.npmjs.com/p
 3. In MySQL, run ```source db/schema.sql```
 4. Exit MySQL once the schema has successfully been sources.
 5. Run ```node seeds/seed.js``` to bring in the seed data.
-6. In the terminal run```node server.js``` to start the server.
+6. In the terminal run ```node server.js``` to start the server.
 
 - [Tech Blog Git Hub Repository](https://github.com/areitan/Tech_Blog)
 - [Tech Blog Deployed Link](https://obscure-earth-91382.herokuapp.com/)

@@ -1,17 +1,14 @@
 [
   {
     "name": "April",
-    "email": "april@showers.com",
     "password": "letmein123"
   },
   {
     "name": "Mei",
-    "email": "mei@flowers.com",
     "password": "letmein123"
   },
   {
     "name": "June",
-    "email": "june@six.com",
     "password": "letmein123"
   }
 ]
