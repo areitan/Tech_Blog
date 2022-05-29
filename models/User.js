@@ -1,3 +1,5 @@
+// from Week 14 Ex 28 Mini Project code 
+
 const { Model, DataTypes } = require('sequelize');
 const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
