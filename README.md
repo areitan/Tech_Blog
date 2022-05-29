@@ -30,7 +30,7 @@ This is an MVC application tech blog built with [MySQL2](https://www.npmjs.com/p
 6. In the terminal run```node server.js``` to start the server.
 
 - [Tech Blog Git Hub Repository](https://github.com/areitan/Tech_Blog)
-- [Tech Blog Deployed Link](https://git.heroku.com/obscure-earth-91382.git)
+- [Tech Blog Deployed Link](https://obscure-earth-91382.herokuapp.com/)
 
 
 ---
