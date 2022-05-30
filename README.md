@@ -42,7 +42,6 @@ In order to use this application navigate to the deployed link above. The applic
 ![Tech Blog Homepage](/assets/1_schema.png)
 
 
-
 ---
 ## Tests
 
