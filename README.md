@@ -6,6 +6,8 @@
 ## Description
 
 This is an MVC application tech blog built with [MySQL2](https://www.npmjs.com/package/mysql2), [Sequelize](https://www.npmjs.com/package/sequelize), [Express.js](https://www.npmjs.com/package/express), [express-session](https://www.npmjs.com/package/express-session), [express-handlebars](https://www.npmjs.com/package/express-handlebars), [bcrypt package](https://www.npmjs.com/package/bcrypt), and the [dotenv](https://www.npmjs.com/package/dotenv) package, and deployed with Heroku.
+
+NOTE: There is still work left to be done on this project. The app is deployed on Heroku and you can sign up and create blogs. Some of the routes need work and the interfaces need to be smoothed out.
   
 
 ---
@@ -39,7 +41,26 @@ This is an MVC application tech blog built with [MySQL2](https://www.npmjs.com/p
 In order to use this application navigate to the deployed link above. The application should allow the user to view, create, and comment on blog posts.
 
 ### Homepage
-![Tech Blog Homepage](/assets/1_schema.png)
+![Tech Blog Homepage](/assets/1_login.png)
+
+### Signup
+![Tech Blog Signup](/assets/2_signup.png)
+
+### Loggin In
+![Tech Blog Loggin In](/assets/3_logging_in.png)
+
+### View All Blogs
+![Tech Blog View All Blogs](/assets/4_view_all.png)
+
+### Add First Blog
+![Tech Blog Add First Blog](/assets/5_first_blog.png)
+
+### Add First Blog Success
+![Tech Blog Add First Blog Success](/assets/6_first_blog_success.png)
+
+### Add First Blog Success
+![Tech Blog Add New Blog](/assets/7_New_blog.png)
+
 
 
 ---
